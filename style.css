@@ -14,7 +14,7 @@
 	margin-top: 80px;
     height: 231px;
     width: 960px;
-    padding-top: 112px;
+    padding-top: 212px;
 }
 
 .logo {
@@ -36,31 +36,29 @@
 }
 
 #Searchbar {
-	width: 480px;
-	height: 25px;
-	font-size: 18px;
+	width: 550px;
+	height: 30px;
+	border: solid #ccc 1px;
+	vertical-align: middle;
+}
+
+#Searchbar input {
 	font-family: sans-serif;
 	font-weight: lighter; 
-	border: solid #ccc 1px;
+	font-size: 18px;
+	width: 496px;
+	height: 28px;
+	border: none;
+	background-color: #fff;
+	padding-left: 5px;
+}
+
+#Searchbar input:active {
+
 }
 
 .on_c {
 	border: solid #08f 1px;
-}
-
-.ava {
-  -webkit-background-size: 32px 32px;
-  background-size: 32px 32px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  display: block;
-  margin: -1px;
-  height: 32px;
-  width: 32px;
-}
-
-.ava a {
-	cursor: default;
 }
 
 .button {
@@ -83,4 +81,62 @@
     color: #333;
     box-shadow: 1px 1px 2px rgba(150,150,150,0.5); /* Параметры тени */
     border: #ccc solid 1px;
+
+}
+
+.keyboard {
+  background: url(data:image/gif;base64,R0lGODlhEwALAKECAAAAABISEv///////yH5BAEKAAIALAAAAAATAAsAAAIdDI6pZ+suQJyy0ocV3bbm33EcCArmiUYk1qxAUAAAOw==) no-repeat center;
+  display: inline-block;
+  height: 11px;
+  line-height: 0;
+  width: 19px;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+.mic {
+  background: url(data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=) no-repeat center;
+  background-size: 14px 19px;
+  display: inline-block;
+  height: 23px;
+  width: 17px;
+  vertical-align: middle;
+  opacity: 0.6;
+  margin-right: 5px;
+
+}
+
+.bell {
+	background: url('//ssl.gstatic.com/gb/images/i1_0430b5ba.png') no-repeat;
+	display: block;
+	width: 32px;
+	height: 32px;
+
+
+}
+.ava {
+	cursor: default;
+  -webkit-border-radius: 50%;
+  border: 1px black solid;
+  border-radius: 50%;
+  display: block;
+  margin: -1px;
+  height: 32px;
+  width: 32px;
+  background: url(//lh3.googleusercontent.com/-evArNsMuqbs/AAAAAAAAAAI/AAAAAAAAAAA/sk_6q-E1fdI/s32-c/photo.jpg) no-repeat;
+  content: url(//lh3.googleusercontent.com/-evArNsMuqbs/AAAAAAAAAAI/AAAAAAAAAAA/sk_6q-E1fdI/s32-c/photo.jpg);
+}
+
+.avadiv {
+	background: url(//lh3.googleusercontent.com/-evArNsMuqbs/AAAAAAAAAAI/AAAAAAAAAAA/sk_6q-E1fdI/s32-c/photo.jpg);
+	background-size: 32px 32px;
+	white-space: nowrap;
+}
+
+.top {
+	width: 500px;
+	float: right;  
+}
+
+nav {
+	vertical-align: middle;
 }
